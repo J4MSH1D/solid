@@ -13,9 +13,6 @@ function App() {
     <>
       <Header />
       <main class="min-h-screen w-screen overflow-x-hidden">
-        <div class="mx-auto text-center uppercase font-bold">
-          shag'zod yomon bacha
-        </div>
         <Routes>
           <Route path="/" component={Home} />
           <Route path="/about" component={About} />
